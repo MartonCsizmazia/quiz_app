@@ -6,7 +6,9 @@ const QuestionBox = ({question, options}) =>{
         <div className= "questionBox">
             <div className="question">{question}</div>
             {answer.map((text, index) => (
-                <button key={index} className="answerBtn">
+                <button key={index} className="answerBtn" onClick={() => {
+                    setAnswer([text]);
+                }}>
                 {text}
                 </button>
                 ))}

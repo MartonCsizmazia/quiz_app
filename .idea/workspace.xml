@@ -4,7 +4,6 @@
     <list default="true" id="afee7a32-5faf-4db0-9137-8109f8235982" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/QuestionBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/QuestionBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590659796568</updated>
-      <workItem from="1590659798613" duration="5860000" />
+      <workItem from="1590659798613" duration="6104000" />
     </task>
     <task id="LOCAL-00001" summary="adding quiz DB and css">
       <created>1590671696015</created>
@@ -92,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590673817503</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="options buttons added to questions">
+      <created>1590674523378</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590674523378</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,13 +108,14 @@
     <MESSAGE value="adding quiz DB and css" />
     <MESSAGE value="creating quiz component" />
     <MESSAGE value="5 random question displayed on screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="5 random question displayed on screen" />
+    <MESSAGE value="options buttons added to questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="options buttons added to questions" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1641" y="115" width="867" height="847" key="CommitChangelistDialog2" timestamp="1590673816380">
+    <state x="1641" y="115" width="867" height="847" key="CommitChangelistDialog2" timestamp="1590674523276">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="1641" y="115" width="867" height="847" key="CommitChangelistDialog2/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1590673816380" />
+    <state x="1641" y="115" width="867" height="847" key="CommitChangelistDialog2/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1590674523276" />
     <state x="1858" y="298" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590669403475">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
