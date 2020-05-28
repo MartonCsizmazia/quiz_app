@@ -24,7 +24,7 @@ class  Quiz extends Component{
             });
         }
         this.setState({
-            responses: this.state.responses
+            responses: this.state.responses < 5 ? this.state.responses +1 : 5
         })
     }
 
@@ -36,7 +36,9 @@ class  Quiz extends Component{
         return (
             <div className="container">
                 <div className="title">Quiz</div>
-                {this.state.questionBank.length > 0 && this.state.questionBank.map(
+                {this.state.questionBank.length > 0 &&
+                this.state.responses < 5 &&
+                this.state.questionBank.map(
                     ({question, answers, correct, questionId}) => (
                         <QuestionBox
                             question={question}
