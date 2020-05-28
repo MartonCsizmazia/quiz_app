@@ -2,7 +2,8 @@ import React, {Component} from "react";
 import ReactDom from "react-dom";
 import "./assets/style.css";
 import quizService from "./quizService";
-import QuestionBox from "./assets/QuestionBox";
+import QuestionBox from "./components/QuestionBox";
+import Result from "./assets/Result";
 
 class  Quiz extends Component{
     state = {
@@ -10,6 +11,8 @@ class  Quiz extends Component{
         score: 0,
         responses:0
     };
+
+
     getQuestions = () =>{
         quizService().then(question => {
             this.setState({
@@ -17,6 +20,8 @@ class  Quiz extends Component{
             });
         });
     };
+
+
     computeAnswer = (answer, correctAnswer) =>{
         if (answer === correctAnswer){
             this.setState({
@@ -27,6 +32,8 @@ class  Quiz extends Component{
             responses: this.state.responses < 5 ? this.state.responses +1 : 5
         })
     }
+
+
 
     componentDidMount() {
         this.getQuestions();
@@ -49,7 +56,9 @@ class  Quiz extends Component{
                     )
                 )}
 
-                {this.state.responses === 5 ? (<h2>{this.state.score}</h2>) : null}
+                {this.state.responses === 5 ? (
+                    <Result score={this.state.score} playAgain={this.playAgain} />
+                    ) : null}
             </div>
         );
     }
