@@ -33,7 +33,13 @@ class  Quiz extends Component{
         })
     }
 
-
+    playAgain = () =>{
+        this.getQuestions();
+        this.setState({
+            score: 0,
+            responses:0
+        })
+    }
 
     componentDidMount() {
         this.getQuestions();
