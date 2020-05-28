@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afee7a32-5faf-4db0-9137-8109f8235982" name="Default Changelist" comment="creating quiz component">
+    <list default="true" id="afee7a32-5faf-4db0-9137-8109f8235982" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/QuestionBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/QuestionBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590659796568</updated>
-      <workItem from="1590659798613" duration="5082000" />
+      <workItem from="1590659798613" duration="5860000" />
     </task>
     <task id="LOCAL-00001" summary="adding quiz DB and css">
       <created>1590671696015</created>
@@ -84,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590672568521</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="5 random question displayed on screen">
+      <created>1590673817503</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590673817503</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,20 +101,37 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding quiz DB and css" />
     <MESSAGE value="creating quiz component" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating quiz component" />
+    <MESSAGE value="5 random question displayed on screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="5 random question displayed on screen" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1641" y="115" width="867" height="847" key="CommitChangelistDialog2" timestamp="1590672581936">
+    <state x="1641" y="115" width="867" height="847" key="CommitChangelistDialog2" timestamp="1590673816380">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="1641" y="115" width="867" height="847" key="CommitChangelistDialog2/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1590672581936" />
+    <state x="1641" y="115" width="867" height="847" key="CommitChangelistDialog2/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1590673816380" />
     <state x="1858" y="298" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590669403475">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="1858" y="298" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1590669403475" />
-    <state x="1675" y="275" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590672585335">
+    <state width="937" height="373" key="GridCell.Tab.0.bottom" timestamp="1590674095007">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="1675" y="275" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1590672585335" />
+    <state width="937" height="373" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1590674095007" />
+    <state width="937" height="373" key="GridCell.Tab.0.center" timestamp="1590674095006">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="937" height="373" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1590674095006" />
+    <state width="937" height="373" key="GridCell.Tab.0.left" timestamp="1590674095006">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="937" height="373" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1590674095006" />
+    <state width="937" height="373" key="GridCell.Tab.0.right" timestamp="1590674095007">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="937" height="373" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1590674095007" />
+    <state x="1675" y="275" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590673822289">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1675" y="275" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1590673822289" />
   </component>
 </project>
