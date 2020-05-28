@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="afee7a32-5faf-4db0-9137-8109f8235982" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/QuestionBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/QuestionBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590659796568</updated>
-      <workItem from="1590659798613" duration="6979000" />
+      <workItem from="1590659798613" duration="7235000" />
     </task>
     <task id="LOCAL-00001" summary="adding quiz DB and css">
       <created>1590671696015</created>
@@ -106,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590674661246</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding score">
+      <created>1590675539797</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590675539797</updated>
+    </task>
+    <task id="LOCAL-00007" summary="making sure score only goes up to 5">
+      <created>1590675660111</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590675660111</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,13 +131,15 @@
     <MESSAGE value="5 random question displayed on screen" />
     <MESSAGE value="options buttons added to questions" />
     <MESSAGE value="only the choosen answer will display by the question" />
-    <option name="LAST_COMMIT_MESSAGE" value="only the choosen answer will display by the question" />
+    <MESSAGE value="adding score" />
+    <MESSAGE value="making sure score only goes up to 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="making sure score only goes up to 5" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2277" y="89" width="867" height="847" key="CommitChangelistDialog2" timestamp="1590675539680">
+    <state x="2277" y="89" width="867" height="847" key="CommitChangelistDialog2" timestamp="1590675659981">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2277" y="89" width="867" height="847" key="CommitChangelistDialog2/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1590675539680" />
+    <state x="2277" y="89" width="867" height="847" key="CommitChangelistDialog2/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1590675659981" />
     <state x="1858" y="298" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590669403475">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
